@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f24b6a;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.search-form input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #222;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+/* Thumbnail styling */
+.show {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.show 1 {
+  text-align: :right;
+  margin-bottom: 20px;
+
+}
+
+.show img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.show h3 {
+  margin-top: 10px;
+}
+
+/* Watch Now button styling */
+.watch-now {
+  padding: 10px 20px;
+  background-color: #f24b6a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.watch-now:hover {
+  background-color: #e03e58;
+}
+/* Add this CSS to styles.css */
+
+.slideshow {
+  margin-bottom: 40px;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slide {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  scroll-snap-align: start;
+}
+
+.slide img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.slide h3 {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #333;
+}
+
+/* Hide scrollbar */
+.slider::-webkit-scrollbar {
+  display: none;
+}
